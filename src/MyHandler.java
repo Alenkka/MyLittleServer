@@ -26,7 +26,7 @@ public class MyHandler implements HttpHandler {
                         state.addToFoodMemory(food);
                         response = "Mmm... It's really delicious!";
                         System.out.println("food:"+food);
-                    }   else  response = "One more" + " "+ food + " " + "?";
+                    }   else  response = "One more" + " "+ food + "?";
                               }
                 else if (m.get("name").equals("sleep")){
                     String sleep = m.get("value").toString();

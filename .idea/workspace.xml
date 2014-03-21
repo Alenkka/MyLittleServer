@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c562036d-2454-48ff-88be-5dc0bade9f3e" name="Default" comment="My littleServer can eat now!&#10;Handler now as separated class&#10;&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MyHandler.java" />
-      <change type="DELETED" beforePath="C:\MyBag\MyLittleServer\src\Params.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\MyBag\MyLittleServer\src\Params2.java" afterPath="$PROJECT_DIR$/src/LifecycleParams.java" />
-      <change type="MOVED" beforePath="C:\MyBag\MyLittleServer\src\ParamsCollections.java" afterPath="$PROJECT_DIR$/src/Memory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Server.java" afterPath="$PROJECT_DIR$/src/Server.java" />
+    <list default="true" id="c562036d-2454-48ff-88be-5dc0bade9f3e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Memory.java" afterPath="$PROJECT_DIR$/src/Memory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MyHandler.java" afterPath="$PROJECT_DIR$/src/MyHandler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyLittleServer.iws" />
@@ -62,23 +59,7 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/MyHandler.java" line="21" class="MyHandler" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -91,7 +72,7 @@
       <file leaf-file-name="Server.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="57" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+            <state line="12" column="35" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,36 +80,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Memory.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Memory.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Memory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0" vertical-offset="117" max-vertical-offset="595">
+            <state line="40" column="23" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.6608479" vertical-offset="415" max-vertical-offset="833">
               <folding>
-                <element signature="e#135#143#0" expanded="true" />
-                <element signature="e#194#202#0" expanded="true" />
-                <element signature="e#252#260#0" expanded="true" />
-                <element signature="e#309#317#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#177#185#0" expanded="true" />
+                <element signature="e#236#244#0" expanded="true" />
+                <element signature="e#294#302#0" expanded="true" />
+                <element signature="e#351#359#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyHandler.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MyHandler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MyHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="80" selection-start="1618" selection-end="1618" vertical-scroll-proportion="0.36006546" vertical-offset="358" max-vertical-offset="969">
+            <state line="28" column="92" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="969">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedTreeMap.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../gson-2.2.4.jar!/com/google/gson/internal/LinkedTreeMap.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="13" selection-start="1155" selection-end="1155" vertical-scroll-proportion="-4.32" vertical-offset="385" max-vertical-offset="2295">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -136,7 +109,7 @@
       <file leaf-file-name="LifecycleParams.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LifecycleParams.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="48" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+            <state line="22" column="0" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
               <folding>
                 <element signature="e#254#255#0" expanded="true" />
                 <element signature="e#290#291#0" expanded="true" />
@@ -163,10 +136,10 @@
         <option value="$PROJECT_DIR$/src/Params.java" />
         <option value="$PROJECT_DIR$/src/Params2.java" />
         <option value="$PROJECT_DIR$/src/ParamsCollections.java" />
-        <option value="$PROJECT_DIR$/src/Memory.java" />
         <option value="$PROJECT_DIR$/src/Server.java" />
-        <option value="$PROJECT_DIR$/src/LifecycleParams.java" />
         <option value="$PROJECT_DIR$/src/MyHandler.java" />
+        <option value="$PROJECT_DIR$/src/LifecycleParams.java" />
+        <option value="$PROJECT_DIR$/src/Memory.java" />
       </list>
     </option>
   </component>
@@ -377,7 +350,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -418,10 +391,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="13" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="578">
           <folding>
-            <element signature="e#135#143#0" expanded="true" />
-            <element signature="e#194#202#0" expanded="true" />
-            <element signature="e#252#260#0" expanded="true" />
-            <element signature="e#309#317#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#177#185#0" expanded="true" />
+            <element signature="e#236#244#0" expanded="true" />
+            <element signature="e#294#302#0" expanded="true" />
+            <element signature="e#351#359#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -451,10 +425,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="13" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="578">
           <folding>
-            <element signature="e#135#143#0" expanded="true" />
-            <element signature="e#194#202#0" expanded="true" />
-            <element signature="e#252#260#0" expanded="true" />
-            <element signature="e#309#317#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#177#185#0" expanded="true" />
+            <element signature="e#236#244#0" expanded="true" />
+            <element signature="e#294#302#0" expanded="true" />
+            <element signature="e#351#359#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -539,9 +514,25 @@
         <state line="232" column="19" selection-start="8692" selection-end="8692" vertical-scroll-proportion="0.0" vertical-offset="3267" max-vertical-offset="8874" />
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/../gson-2.2.4.jar!/com/google/gson/internal/LinkedTreeMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="13" selection-start="1155" selection-end="1155" vertical-scroll-proportion="-4.32" vertical-offset="385" max-vertical-offset="2295">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="57" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+        <state line="12" column="35" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="92" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="969">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -550,7 +541,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LifecycleParams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="48" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+        <state line="22" column="0" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
           <folding>
             <element signature="e#254#255#0" expanded="true" />
             <element signature="e#290#291#0" expanded="true" />
@@ -562,28 +553,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Memory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0" vertical-offset="117" max-vertical-offset="595">
-          <folding>
-            <element signature="e#135#143#0" expanded="true" />
-            <element signature="e#194#202#0" expanded="true" />
-            <element signature="e#252#260#0" expanded="true" />
-            <element signature="e#309#317#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../gson-2.2.4.jar!/com/google/gson/internal/LinkedTreeMap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="13" selection-start="1155" selection-end="1155" vertical-scroll-proportion="-4.32" vertical-offset="385" max-vertical-offset="2295">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="80" selection-start="1618" selection-end="1618" vertical-scroll-proportion="0.36006546" vertical-offset="358" max-vertical-offset="969">
+        <state line="40" column="23" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.6608479" vertical-offset="415" max-vertical-offset="833">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#177#185#0" expanded="true" />
+            <element signature="e#236#244#0" expanded="true" />
+            <element signature="e#294#302#0" expanded="true" />
+            <element signature="e#351#359#0" expanded="true" />
           </folding>
         </state>
       </provider>
