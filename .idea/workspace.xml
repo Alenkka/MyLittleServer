@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c562036d-2454-48ff-88be-5dc0bade9f3e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Memory.java" afterPath="$PROJECT_DIR$/src/Memory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MyHandler.java" afterPath="$PROJECT_DIR$/src/MyHandler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="MyLittleServer.iws" />
@@ -69,10 +68,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Server.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Server.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="35" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+            <state line="12" column="39" selection-start="404" selection-end="404" vertical-scroll-proportion="0.5087282" vertical-offset="0" max-vertical-offset="401">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,10 +79,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Memory.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Memory.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Memory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="23" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.6608479" vertical-offset="415" max-vertical-offset="833">
+            <state line="40" column="10" selection-start="1230" selection-end="1230" vertical-scroll-proportion="0.0" vertical-offset="449" max-vertical-offset="918">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#177#185#0" expanded="true" />
@@ -98,7 +97,7 @@
       <file leaf-file-name="MyHandler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MyHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="92" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="969">
+            <state line="28" column="92" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="969">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -372,7 +371,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="My littleServer can eat now!&#10;Handler now as separated class&#10;&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="My littleServer can eat now!&#10;Handler now as separated class&#10;&#10;" />
+    <MESSAGE value="My littleServer can eat now!&#10;Handler now as separated class&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="My littleServer can eat now!&#10;Handler now as separated class&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -521,24 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="35" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="92" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="969">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LifecycleParams.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="0" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
@@ -553,13 +535,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Memory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="23" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.6608479" vertical-offset="415" max-vertical-offset="833">
+        <state line="40" column="10" selection-start="1230" selection-end="1230" vertical-scroll-proportion="0.0" vertical-offset="449" max-vertical-offset="918">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#177#185#0" expanded="true" />
             <element signature="e#236#244#0" expanded="true" />
             <element signature="e#294#302#0" expanded="true" />
             <element signature="e#351#359#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="92" selection-start="1275" selection-end="1275" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="969">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="39" selection-start="404" selection-end="404" vertical-scroll-proportion="0.5087282" vertical-offset="0" max-vertical-offset="401">
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

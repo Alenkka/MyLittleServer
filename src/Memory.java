@@ -10,12 +10,16 @@ public class Memory {
     public TreeSet<String> drinks = new TreeSet<String>();
     public TreeSet<String> sleep = new TreeSet<String>();
     public TreeSet<String> play = new TreeSet<String>();
-    private File file = new File("foodMemory.txt");
-    private Path path = Paths.get("c:\\MyBag\\MyLittleServer\\");
+    private Path path = Paths.get("c:\\MyBag\\MyLittleServer\\foodMemory.txt");
 
 
-    public void addToFoodMemory(String food){
+    public void addToFoodMemory(String food) throws IOException {
         this.food.add(food);
+        try {
+            this.addToFile(this.food);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public void addToSleepMemory(String sleep){
@@ -30,14 +34,15 @@ public class Memory {
             return this.sleep.contains(sleep);
                 }
 
-    public void addToFile(Memory food)throws  IOException {
+    public void addToFile(TreeSet<String> food)throws  IOException {
         OutputStream out =  Files.newOutputStream(path);
-        FileWriter writer = new FileWriter(file);
-        writer.write();
+        ObjectOutputStream oOut = new ObjectOutputStream(out);
+        oOut.writeObject(food);
+        //out.close();
 
         }
 
     }
 
-}
+
 
