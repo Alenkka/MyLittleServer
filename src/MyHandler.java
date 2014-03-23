@@ -22,12 +22,16 @@ public class MyHandler implements HttpHandler {
             for (Map m: lifecycleParams.params) {
                 if (m.get("name").equals("food")){
                     String food = m.get("value").toString();
-                    if (!state.checkFoodEnough(food)){
-                        state.addToFoodMemory(food);
-                        response = "Mmm... It's really delicious!";
-                        System.out.println("food:"+food);
-                    }   else  response = "One more" + " "+ food + "?";
-                              }
+                    try {
+                        if (!state.checkFoodEnough(food)){
+                            state.addToFoodMemory(food);
+                            response = "Mmm... It's really delicious!";
+                            System.out.println("food:"+food);
+                        }   else  response = "One more" + " "+ food + "?";
+                    } catch (ClassNotFoundException e) {
+                        e.printStackTrace();
+                    }
+                }
                 else if (m.get("name").equals("sleep")){
                     String sleep = m.get("value").toString();
                     if (!state.checkSleepEnough(sleep)){

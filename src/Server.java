@@ -7,7 +7,7 @@ public class Server {
 
     public static void main(String[] args) throws IOException {
         HttpServer server = HttpServer.create(new InetSocketAddress(8000), 0);
-        HttpContext context = server.createContext("/letsCommunicate/", new MyHandler());
+        HttpContext context = server.createContext("/letsPlay/", new MyHandler());
         server.setExecutor(null);
         server.start();}
 }
