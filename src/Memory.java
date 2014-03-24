@@ -35,14 +35,16 @@ public class Memory {
     }
 
     public boolean checkFoodEnough(String food) throws IOException, ClassNotFoundException {
-        Charset cs = Charset.forName("UTF-8");
-
-       BufferedReader is = Files.newBufferedReader(path, cs);
+        InputStream in = Files.newInputStream(path);
+       ObjectInputStream is = new ObjectInputStream(in);
         String line = null;
-        while ((line = is.readLine()) != null) {
+        while (true) {
+            try {
+            line = (String)is.readObject();
             System.out.println(line);
-
+        } catch (Exception e){break;}
         }
+
         return this.food.contains(food);
                       }
 
